@@ -66,9 +66,7 @@ const MyMapComponent = compose(
 const Map = (props) => {
 
   return (
-    <div>
       <MyMapComponent data={props.data}/>
-    </div>
   )
 
 }
