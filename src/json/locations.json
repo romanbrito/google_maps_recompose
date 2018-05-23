@@ -1,0 +1,264 @@
+{
+  "locations": [
+    {
+      "id": "lakeline",
+      "name": "Lakeline",
+      "address": "14010 US-183 #500",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78717",
+      "phone": "512-249-0249",
+      "hours1": "Mon-Thur 11am - 8pm",
+      "hours2": "Fri-Sat 11am - 9pm",
+      "hours3": "Sun 11am - 7pm",
+      "place_id": "",
+      "label": "LL",
+      "coordinates": {
+        "lat": 30.474465,
+        "lng": -97.801183
+      },
+      "houseMenuUrl": ["House_LL"],
+      "cateringMenuUrl": ["Catering_LL"]
+    },
+    {
+      "id": "sunset",
+      "name": "Sunset Valley",
+      "address": "5400 Brodie Ln #230",
+      "city": "Sunset Valley",
+      "state": "TX",
+      "zip": "78745",
+      "phone": "512-891-6464",
+      "hours1": "Mon-Sat 11am - 9pm",
+      "hours2": "Sun 11am - 6pm",
+      "hours3": "",
+      "place_id": "",
+      "label": "SS",
+      "coordinates": {
+        "lat": 30.228924,
+        "lng": -97.822714
+      },
+      "houseMenuUrl": ["House_SS-1", "House_SS-2"],
+      "cateringMenuUrl": ["Catering_SS"]
+    },
+    {
+      "id": "frisco-warren-pkwy",
+      "name": "Frisco Warren Pkwy",
+      "address": "6801 Warren Pkwy #125",
+      "city": "Frisco",
+      "state": "TX",
+      "zip": "75034",
+      "phone": "214-619-1590",
+      "hours1": "Mon-Sun 9am - 9pm",
+      "hours2": "",
+      "hours3": "",
+      "place_id": "",
+      "label": "FR",
+      "coordinates": {
+        "lat": 33.106217,
+        "lng": -96.824965
+      },
+      "houseMenuUrl": ["House_FR"],
+      "cateringMenuUrl": ["Catering_FR"]
+    },
+    {
+      "id": "las-colinas",
+      "name": "Las Colinas",
+      "address": "7601 N MacArthur Blvd # 105",
+      "city": "Irving",
+      "state": "TX",
+      "zip": "75063",
+      "phone": "972-432-0725",
+      "hours1": "Mon-Sun 11am - 9pm",
+      "hours2": "",
+      "hours3": "",
+      "place_id": "",
+      "label": "CO",
+      "coordinates": {
+        "lat": 32.909483,
+        "lng": -96.959442
+      },
+      "houseMenuUrl": ["House_CO"],
+      "cateringMenuUrl": ["Catering_CO"]
+    },
+    {
+      "id": "old-town",
+      "name":  "Old Town",
+      "address": "5500 Greenville Ave #600",
+      "city": "Dallas",
+      "state": "TX",
+      "zip": "75206",
+      "phone": "214-265-8044",
+      "hours1": "Sun-Wed 11am - 9pm",
+      "hours2": "Thur-Sat 11am - 10pm",
+      "hours3": "",
+      "place_id": "",
+      "label": "OT",
+      "coordinates": {
+        "lat": 32.853438,
+        "lng": -96.768555
+      },
+      "houseMenuUrl": ["House_OT"],
+      "cateringMenuUrl": ["Catering_OT"]
+    },
+    {
+      "id": "plano",
+      "name": "Plano",
+      "address": "5813 Preston Rd #574",
+      "city": "Plano",
+      "state": "TX",
+      "zip": "75093",
+      "phone": "972-781-1616",
+      "hours1": "Mon-Sat 11am - 9pm",
+      "hours2": "Sun 11am - 7pm",
+      "hours3": "",
+      "place_id": "",
+      "label": "PL",
+      "coordinates": {
+        "lat": 33.053774,
+        "lng": -96.796717
+      },
+      "houseMenuUrl": ["House_PL"],
+      "cateringMenuUrl": ["Catering_PL"]
+    },
+    {
+      "id": "richardson",
+      "name": "Richardson",
+      "address": "100 S Central Expy #44",
+      "city": "Richardson",
+      "state": "TX",
+      "zip": "75080",
+      "phone": "214-484-9363",
+      "hours1": "Mon-Sun 10: 30am - 10pm",
+      "hours2": "",
+      "hours3": "",
+      "place_id": "",
+      "label": "RI",
+      "coordinates": {
+        "lat": 32.949224,
+        "lng": -96.736778
+      },
+      "houseMenuUrl": ["House_RI"],
+      "cateringMenuUrl": ["Catering_RI"]
+    },
+    {
+      "id": "arlington-uta-campus",
+      "name": "Arlington/UTA Campus",
+      "address": "445 Spaniolo Dr",
+      "city": "Arlington",
+      "state": "TX",
+      "zip": "76010",
+      "phone": "817-460-0808",
+      "hours1": "Mon-Sun 11am - 10pm",
+      "hours2": "",
+      "hours3": "",
+      "place_id": "",
+      "label": "UTA",
+      "coordinates": {
+        "lat": 32.732301,
+        "lng": -97.108553
+      },
+      "houseMenuUrl": ["House_UTA"],
+      "cateringMenuUrl": ["Catering_UTA"]
+    },
+    {
+      "id": "okc",
+      "name": "OKC",
+      "address": "200 S Oklahoma Ave #110",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zip": "73104",
+      "phone": "405-208-4000",
+      "hours1": "Sun-Thur 10:30am - 10pm",
+      "hours2": "Fri-Sat 10:30am - 11pm",
+      "hours3": "",
+      "place_id": "",
+      "label": "BR",
+      "coordinates": {
+        "lat": 35.46395,
+        "lng": -97.510094
+      },
+      "houseMenuUrl": ["House_BR-1", "House_BR-2"],
+      "cateringMenuUrl": ["Catering_BR-1", "Catering_BR-2"]
+    },
+    {
+      "id": "laredo",
+      "name": "Laredo",
+      "address": "1408 E Del Mar Blvd #4B",
+      "city": "Laredo",
+      "state": "TX",
+      "zip": "78041",
+      "phone": "956-753-3311",
+      "hours1": "Sun-Wed 11am - 9pm",
+      "hours2": "Thur-Sat 11am - 10pm",
+      "hours3": "",
+      "place_id": "",
+      "label": "LR",
+      "coordinates": {
+        "lat": 27.575264,
+        "lng": -99.471407
+      },
+      "houseMenuUrl": ["House_LR"],
+      "cateringMenuUrl": ["Catering_LR"]
+    },
+    {
+      "id": "mcallen",
+      "name": "McAllen",
+      "address": "1400 E Expy 83 #160",
+      "city": "McAllen",
+      "state": "TX",
+      "zip": "78503",
+      "phone": "956-627-6714",
+      "hours1": "Sun-Thur 11am - 9pm",
+      "hours2": "Fri-Sat 11am - 10pm",
+      "hours3": "",
+      "place_id": "",
+      "label": "MC",
+      "coordinates": {
+        "lat": 26.194533,
+        "lng": -98.205324
+      },
+      "houseMenuUrl": ["House_MC"],
+      "cateringMenuUrl": ["Catering_MC"]
+    },
+    {
+      "id": "houston-westheimer",
+      "name": "Houston Westheimer",
+      "address": "8383 WESTHEIMER RD",
+      "city": "Houston",
+      "state": "TX",
+      "zip": "77063",
+      "phone": "713-868-9335",
+      "hours1": "Sun-Thur 11am - 10pm",
+      "hours2": "Fri-Sat 11am - 11pm",
+      "hours3": "",
+      "place_id": "",
+      "label": "WE",
+      "coordinates": {
+        "lat": 29.7368233,
+        "lng": -95.513883
+      },
+      "houseMenuUrl": ["House_WE"],
+      "cateringMenuUrl": ["Catering_WE"]
+    },
+    {
+      "id": "denton",
+      "name": "Denton",
+      "address": "1120 West Hickory",
+      "city": "Denton",
+      "state": "TX",
+      "zip": "76201",
+      "phone": "940-514-1067",
+      "hours1": "Sun-Wed 11am - 10pm",
+      "hours2": "Thur-Sat 11am - midnight",
+      "hours3": "",
+      "place_id": "",
+      "label": "DN",
+      "coordinates": {
+        "lat": 33.214837,
+        "lng": -97.145049
+      },
+      "houseMenuUrl": ["House_DN"],
+      "cateringMenuUrl": ["Catering_DN"]
+    }
+  ]
+}

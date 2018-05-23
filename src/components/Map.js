@@ -19,16 +19,24 @@ const MyMapComponent = compose(
     defaultZoom={8}
     defaultCenter={{lat: 29.7368233, lng: -95.513883}}
   >
-    {props.isMarkerShown && <Marker position={{lat: 29.7368233, lng: -95.513883}}/>}
+
+    {props.data.map(marker => (
+      <Marker
+        key={marker.label}
+        position={marker.coordinates}
+        label={marker.label}
+        onClick={e => window.open('https://www.google.com/maps/dir/?api=1&destination=' + marker.coordinates.lat + ',' + marker.coordinates.lng, '_blank')}
+      />
+    ))}
+
   </GoogleMap>
 )
 
 const Map = (props) => {
+
   return (
     <div>
-      <MyMapComponent
-        isMarkerShown
-      />
+      <MyMapComponent data={props.data}/>
     </div>
   )
 
