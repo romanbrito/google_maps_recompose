@@ -1,6 +1,7 @@
 import React from 'react'
-import {compose, withProps, lifecycle} from "recompose"
+import {compose, withProps, lifecycle, withHandlers} from "recompose"
 import {withScriptjs, withGoogleMap, GoogleMap, Marker} from "react-google-maps"
+import {MarkerClusterer} from 'react-google-maps/lib/components/addons/MarkerClusterer'
 import apiKey from '../ApiKeys/apiKey.json'
 import SearchLocation from './SearchLocation'
 
@@ -13,7 +14,13 @@ const MyMapComponent = compose(
     containerElement: <div style={{height: `400px`}}/>,
     mapElement: <div style={{height: `100%`}}/>,
   }),
-
+  withHandlers({
+    onMarkerClustererClick: () => (markerClusterer) => {
+      const clickedMarkers = markerClusterer.getMarkers()
+      console.log(`Current clicked markers length: ${clickedMarkers.length}`)
+      console.log(clickedMarkers)
+    },
+  }),
   lifecycle({
     componentWillMount() {
       const {data} = this.props
@@ -46,16 +53,23 @@ const MyMapComponent = compose(
       defaultZoom={8}
       defaultCenter={{lat: 29.7368233, lng: -95.513883}}
     >
+      <MarkerClusterer
+        onClick={props.onMarkerClustererClick}
+        averageCenter
+        enableRetinaIcons
+        gridSize={15}
+      >
 
-      {props.data.map(marker => (
-        <Marker
-          key={marker.label}
-          position={marker.coordinates}
-          label={marker.label}
-          onClick={e => window.open('https://www.google.com/maps/dir/?api=1&destination=' + marker.coordinates.lat + ',' + marker.coordinates.lng, '_blank')}
-        />
-      ))}
+        {props.data.map(marker => (
+          <Marker
+            key={marker.label}
+            position={marker.coordinates}
+            label={marker.label}
+            onClick={e => window.open('https://www.google.com/maps/dir/?api=1&destination=' + marker.coordinates.lat + ',' + marker.coordinates.lng, '_blank')}
+          />
+        ))}
 
+      </MarkerClusterer>
     </GoogleMap>
     <div>
       <SearchLocation data={props.data} distanceMatrixService={props.distanceMatrixService}/>
@@ -66,7 +80,7 @@ const MyMapComponent = compose(
 const Map = (props) => {
 
   return (
-      <MyMapComponent data={props.data}/>
+    <MyMapComponent data={props.data}/>
   )
 
 }
